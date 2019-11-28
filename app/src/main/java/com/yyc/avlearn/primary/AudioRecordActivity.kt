@@ -26,6 +26,8 @@ import java.lang.Exception
  * 4、创建一个数据流， 一边从AudioRecord中读取生硬数据到初始化的buffer，一边讲buffer中的数据导入数据流
  * 5、关闭数据流
  * 6、停止录音
+ *
+ * 录音一定要注意录音权限
  */
 class AudioRecordActivity : BaseActivity() {
     //生命AudioRecord对象
