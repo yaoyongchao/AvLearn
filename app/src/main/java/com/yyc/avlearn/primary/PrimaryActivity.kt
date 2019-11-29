@@ -23,5 +23,8 @@ class PrimaryActivity : BaseActivity() {
         btn2.setOnClickListener {
             doNext(AudioRecordActivity::class.java)
         }
+        btn3.setOnClickListener {
+            doNext(ThreeAudioTrackActivity::class.java)
+        }
     }
 }

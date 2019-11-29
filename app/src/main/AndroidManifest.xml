@@ -14,7 +14,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".primary.PrimaryActivity"></activity>
+        <activity android:name=".primary.ThreeAudioTrackActivity"></activity>
+        <activity android:name=".primary.PrimaryActivity" />
         <activity android:name=".primary.AudioRecordActivity" />
         <activity android:name=".demo.MyDemoActivity" />
         <activity android:name=".base.BaseActivity" />
